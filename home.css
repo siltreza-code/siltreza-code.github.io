@@ -120,6 +120,12 @@ body {
     font-size: 24px;
 }
 
+#about_website {
+    color: #ffffff;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
 a {
     color: rgb(203, 215, 255);
 }
