@@ -7,6 +7,8 @@ html {
 }
 
 body {
+    background-color: #101010;
+    color: #c5c5c5;
     margin: 0;
     padding: 0;
 
@@ -54,9 +56,30 @@ body {
 }
 
 #image_collection {
-    grid-column: 2;
-    size: 45%;
-    padding-left: 2%;
-    padding-right: 2%;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5% 2%;
+
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+
+#gallery_img {
+    width: 70%;
+    height: auto;
+    margin: 1% auto 4%;
+
+    outline: solid 5px #4b4b4b;
+}
+
+a {
+    color: rgb(203, 215, 255);
+}
+
+#small_spacer {
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
