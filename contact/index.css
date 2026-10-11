@@ -1,0 +1,97 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #101010;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#top {
+    display: flex;
+    position: fixed;
+    background-color: #262626;
+    color: white;
+    z-index: 1000;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#titleIcon {
+    height: 95%;
+    width: auto;
+    margin-right: 1%;
+}
+
+#main {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    left: 0;
+    width: 100%;
+
+    font-size: 24px;
+    color: #c5c5c5;
+}
+
+#contactForm {
+    color: #c5c5c5;
+}
+form, input, label {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+button {
+    background-color: #eaeaea;
+    color: #262626;
+    margin-bottom: 2%;
+
+    width: 75px;
+    height: 30px;
+}
+
+#bottom {
+    display: flex;
+    position: fixed;
+    background-color: #262626;
+    color: white;
+    z-index: 1000;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+#spacer {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#largeSpacer {
+    margin-top: 9%;
+    margin-bottom: 9%;
+    opacity: 0%;
+}
+
+a {
+    color: rgb(203, 215, 255);
+}
